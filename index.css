@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: "Clarity", sans-serif;
-  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 #navbar {
@@ -61,6 +61,47 @@ body {
   cursor: pointer;
   font-size: 20px;
   height: 50px;
+}
+.mobnav {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .mobnav {
+    display: block;
+    background: #12294d;
+    padding: 20px;
+  }
+  #navbar {
+    display: none;
+  }
+  .menu {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: fles-start;
+    text-align: left;
+    background-color: transparent;
+    width: auto;
+    padding: 0;
+    margin-top: 30px;
+  }
+  .navimg {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .menu a {
+    margin-right: 20px;
+    text-decoration: none;
+    gap: 20px;
+    font-size: 19px;
+    color: white;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 400px) {
 }
 /* HOME COMPONENT */
 .home1 {
@@ -407,6 +448,98 @@ body {
   font-size: 20px;
   color: #080e24;
   margin-top: -5px;
+}
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .whatdo {
+    padding: 10px;
+  }
+  .what-we-do {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+  .contents {
+    margin-top: 20px;
+  }
+  .content1 {
+    margin-left: 70px;
+  }
+  .content1 img {
+    height: 350px;
+    width: auto;
+  }
+  .overlay img {
+    height: 50px;
+    height: 50px;
+  }
+  .overlay h1 {
+    font-size: 22px;
+  }
+  .overlay p {
+    font-size: 16px;
+  }
+  .overlay {
+    width: 350px;
+    padding: 20px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
+  .left-side h2 {
+    font-size: 36px;
+  }
+  .left-side h3 {
+    font-size: 24px;
+  }
+  .left-side p {
+    font-size: 20px;
+  }
+  .left-side {
+    width: 380px;
+    margin-left: -130px;
+  }
+  .whatdo {
+    padding: 10px;
+    width: 390px;
+  }
+  .what-we-do {
+    display: flex;
+    flex-direction: column;
+  }
+  .contents {
+    margin-top: 20px;
+  }
+  .content1 {
+    margin-left: 50px;
+  }
+  .content1 img {
+    height: 300px;
+    width: auto;
+  }
+  .overlay img {
+    height: 50px;
+    height: 50px;
+  }
+  .overlay h1 {
+    font-size: 22px;
+  }
+  .overlay p {
+    font-size: 16px;
+  }
+  .overlay {
+    width: 220px;
+    padding: 20px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 /* WHY CHOOSE US */
 .new-section {

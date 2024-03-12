@@ -566,3 +566,37 @@ body {
   font-size: 28px;
   margin-bottom: -20px;
 }
+
+@media (max-width: 400px) {
+  .commitment-section {
+    padding: 15px;
+  }
+  .commitment-section h2 {
+    font-size: 18px;
+    margin-bottom: 3px;
+  }
+  .top h1 {
+    font-size: 26px;
+    margin-bottom: 18px;
+  }
+  .commitment-cards {
+    gap: 30px;
+    margin-bottom: 50px;
+    transition: transform 0.8s ease-in-out;
+    margin-bottom: 20px;
+  }
+
+  .commitment-card {
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+  }
+
+  .commitment-card h3 {
+    font-size: 20px;
+  }
+
+  .commitment-card p {
+    font-size: 16px;
+  }
+}

@@ -38,3 +38,8 @@ function slideCards(direction) {
     ".commitment-cards"
   ).style.transform = `translateX(${transformValue}px)`;
 }
+function toggleMenu() {
+  var mobileMenu = document.getElementById("mobileMenu");
+  mobileMenu.style.display =
+    mobileMenu.style.display === "block" ? "none" : "block";
+}
