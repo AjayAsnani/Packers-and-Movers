@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Clarity", sans-serif;
-  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 .about-home-section {
@@ -70,6 +70,10 @@ body {
   margin-top: 40px;
 }
 @media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .about-home-section {
     padding: 10px;
     height: 80%;
@@ -109,7 +113,7 @@ body {
 @media (max-width: 400px) {
   .about-home-section {
     padding: 10px;
-    height: 80%;
+    height: 55%;
   }
 
   .about-home-button {
@@ -222,11 +226,11 @@ body {
     font-size: 28px;
   }
   .column {
-    width: 380px;
+    width: 100%;
   }
   .column p {
     font-size: 14px;
-    width: 60%;
+    width: 96%;
   }
   .column a {
     width: 200px;
@@ -235,15 +239,15 @@ body {
     padding: 12px;
     text-align: center;
     font-size: 18px;
-    width: 100px;
+    width: 300px;
   }
   .column:nth-child(2) {
     display: flex;
     flex-direction: column-reverse;
   }
   .column img {
-    width: 200px;
-    height: 200px;
+    width: 96%;
+    height: auto;
   }
 }
 
@@ -409,6 +413,9 @@ body {
   .contact-button {
     margin-top: -10px;
     width: 320px;
+  }
+  .testimonials-left {
+    margin-bottom: 40px;
   }
 }
 /* TETIMONIALS */

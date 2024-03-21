@@ -142,11 +142,32 @@
     padding: 0px;
     width: 90%;
   }
-  .form-and-info1 {
+  .form-row {
     display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .form-and-info {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    width: 90%;
+    order: 2;
+  }
+  .form-row input,
+  .form-row textarea {
+    width: 80%;
+  }
+
+  .contact-form {
+    gap: 10px;
+  }
+
+  .contact-form label {
+    flex-basis: unset;
+    font-size: 18px;
   }
   .or {
     font-size: 40px;

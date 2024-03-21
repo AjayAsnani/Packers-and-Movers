@@ -166,6 +166,10 @@ body {
   gap: 30px;
 }
 @media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .home1 {
     padding: 20px;
   }
@@ -336,7 +340,8 @@ body {
   }
   .services h2 {
     font-size: 40px;
-    margin-bottom: 10px;
+    margin-bottom: -30px;
+    margin-top: 140px;
   }
   .cards1 {
     flex-direction: column;
@@ -1016,6 +1021,7 @@ span {
 @media screen and (max-width: 400px) {
   .process-section {
     padding: 10px;
+    height: 1200px;
   }
 
   .process-left {
