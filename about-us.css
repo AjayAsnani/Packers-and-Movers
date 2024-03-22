@@ -577,6 +577,7 @@ body {
 @media (max-width: 400px) {
   .commitment-section {
     padding: 15px;
+    overflow-x: hidden;
   }
   .commitment-section h2 {
     font-size: 18px;
