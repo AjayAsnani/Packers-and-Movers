@@ -493,13 +493,9 @@ body {
   }
 }
 @media screen and (max-width: 400px) {
-  body {
-    overflow-x: hidden;
+  .contents {
+    overflow-y: hidden;
   }
-
-  /* .contents {
-    overflow-x: hidden;
-  } */
   .left-side h2 {
     font-size: 36px;
   }
