@@ -40,6 +40,5 @@ function slideCards(direction) {
 }
 function toggleMenu() {
   var mobileMenu = document.getElementById("mobileMenu");
-  mobileMenu.style.display =
-    mobileMenu.style.display === "block" ? "none" : "block";
+  mobileMenu.style.display= mobileMenu.style.display === "block" ? "none" : "block";
 }
